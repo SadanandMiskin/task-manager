@@ -1,0 +1,397 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* height: 100vh; */
+  padding: 20px;
+}
+
+.login-form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  border: 1px solid rgb(0, 85, 255);
+
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-form button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background: #0056b3;
+}
+
+.login-form button:last-child {
+  margin-top: 10px;
+  background: #377edb;
+}
+
+.login-form button:last-child:hover {
+  background: #e2e0e0;
+}
+
+.register-form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border: 1px solid rgb(0, 85, 255);
+
+  max-width: 400px;
+}
+
+.googlebtn button{
+  width: 10rem;
+}
+
+.end{
+  display: flex;
+}
+.googlebtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.register-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.register-form button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background: #0056b3;
+}
+
+.register-form button:last-child {
+  margin-top: 10px;
+  background: #0451e1;
+}
+
+.register-form button:last-child:hover {
+  background: #e5dfde;
+}
+
+nav {
+  background-color: #0547c3;
+  color: #fff;
+  /* padding: 10px; */
+  padding: 10px 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+nav li {
+  margin-right: 15px;
+}
+.log:hover{
+  background-color: #bad0ef;
+  color: #0058e5;
+}
+.wrng{
+  background-color: red;
+  text-align: center;
+  padding :2px;
+  color: seashell;
+
+}
+li{
+  text-align: center;
+  top: 30px;
+}
+
+.inc{
+  background-color: #ff1e00;
+  display: flex;
+  justify-content: center;
+  /* max-width: 17%; */
+  position: relative;
+  /* left: 44%; */
+  padding: 10px;
+}
+
+.in{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: rgb(255, 255, 255);
+  padding: 0;
+}
+.option{
+  background-color: #007bff;
+  color: white;
+  padding: 2px 5px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav button {
+  background: white;
+  border: none;
+  color: #0058e5;
+  cursor: pointer;
+}
+
+nav button:hover{
+  background: rgb(215, 0, 0);
+  border: none;
+  color: #fbfbfb;
+  cursor: pointer;
+}
+
+select{
+  max-width: 100%;
+}
+/* Form Styles */
+
+/* form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
+ .btn{
+  background-color: #c33d2b;
+  color: #bad0ef;
+ }
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #adb7c3;
+}
+
+/* Todo List Styles */
+
+footer {
+  margin-top: auto;
+  background-color: #0547c3; 
+  color: #fff; 
+  text-align: center;
+  padding: 0px 0;
+  width: 100%;
+}
+.form-todo{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 3px;
+} 
+
+.form-todo form{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4px 50px;
+}
+
+.search{
+  max-width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.search-form{
+  display: flex;
+  gap: 6px;
+  padding: 7px;
+  border: rgb(190, 190, 190) 1px solid;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 20px;
+}
+.search input[type="text"]{
+  max-width: 75rem;
+}
+
+.todo-columns {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.todo-column {
+  flex: 1;
+  min-width: 200px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 10px; /* Added margin for left and right gaps */
+}
+
+.todo-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #bad0ef;
+}
+
+.card-sel {
+  display: flex;
+  justify-content: start;
+  gap: 6px;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal-content input, .modal-content textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-content button {
+  margin-right: 10px;
+}
+
+/* Responsive Styles */
+.search input[type="text"], input[type="email"], input[type="password"], textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Makes sure inputs take full width of their parent container */
+}
+
+.search input[type="text"], input[type="email"], input[type="password"] {
+  max-width: 100%; /* Ensures input fields don't exceed container width */
+}
+
+/* Style for form container to support full-width inputs */
+ .search-form {
+  width: 100%; /* Ensure the form takes full width of its container */
+}
+
+/* Responsive styles for inputs in forms */
+@media (max-width: 768px) {
+  .form-todo form, .search-form {
+    flex-direction: column; /* Stack form fields vertically on smaller screens */
+    gap: 10px; /* Add gap between stacked items */
+  }
+  
+  .search input[type="text"] {
+    max-width: 100%; /* Ensure search input also takes full width */
+  }
+  .inc{
+    max-width: 163px;
+    left: 30%;
+  }
+}
